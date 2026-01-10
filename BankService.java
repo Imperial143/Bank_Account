@@ -47,18 +47,3 @@ public class BankService {
         // Print final result
         System.out.println("Final Balance: " + acc.getBalance());
     }
-
-
-pipeline {
-    agent any
-
-    stages {
-        stage('Hello') {
-            steps {
-                echo 'Hello, this is my first Jenkins Pipeline!'
-            }
-        }
-    }
-}
-
-}
