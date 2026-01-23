@@ -32,14 +32,14 @@ public class BankService {
 
     // Main method
     public static void main(String[] args) {
-        BankAccount acc = new BankAccount(5000);
+        BankAccount acc = new BankAccount(9000);
 
         System.out.println("Initial Balance: " + acc.getBalance());
 
-        acc.deposit(700);
+        acc.deposit(300);
         System.out.println("Balance after deposit of 700: " + acc.getBalance());
 
-        acc.withdraw(100);
+        acc.withdraw(200);
         System.out.println("Balance after withdrawal of 100: " + acc.getBalance());
 
         System.out.println("Final Balance: " + acc.getBalance());
