@@ -30,19 +30,21 @@ public class BankService {
         }
     }
 
-    // Main method
+    // Main entry point
     public static void main(String[] args) {
+        // Create an instance of the BankAccount class
         BankAccount acc = new BankAccount(5000);
 
         System.out.println("Initial Balance: " + acc.getBalance());
 
-        acc.deposit(500);
+        // Perform operations
+        acc.deposit(700);
         System.out.println("Balance after deposit of 700: " + acc.getBalance());
 
-        acc.withdraw(700);
+        acc.withdraw(100);
         System.out.println("Balance after withdrawal of 100: " + acc.getBalance());
 
+        // Print final result
         System.out.println("Final Balance: " + acc.getBalance());
     }
-
-}   // ✅ THIS was missing
+}
