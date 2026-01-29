@@ -32,7 +32,7 @@ public class BankService {
 
     // Main method
     public static void main(String[] args) {
-        BankAccount acc = new BankAccount(9000);
+        BankAccount acc = new BankAccount(5000);
 
         System.out.println("Initial Balance: " + acc.getBalance());
 
